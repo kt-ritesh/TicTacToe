@@ -1,6 +1,9 @@
 package tictactoe;
 import java.util.*;
 public class Main{
+    static{
+        System.out.println("Welcome!");
+    }
     public static void main(String [] args){
         Scanner sc = new Scanner(System.in);
         System.out.println("Enter the first player Name : ");
